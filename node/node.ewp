@@ -66,20 +66,20 @@
         <option>
           <name>GenLibInFormatter</name>
           <version>0</version>
-          <state>2</state>
+          <state>0</state>
         </option>
         <option>
           <name>GenLibInFormatterDescription</name>
-          <state>Full formatting, without multibytes.</state>
+          <state>Automatic choice of formatter.</state>
         </option>
         <option>
           <name>GenLibOutFormatter</name>
           <version>0</version>
-          <state>2</state>
+          <state>0</state>
         </option>
         <option>
           <name>GenLibOutFormatterDescription</name>
-          <state>Full formatting, without multibytes.</state>
+          <state>Automatic choice of formatter.</state>
         </option>
         <option>
           <name>GenStackSize</name>
@@ -257,7 +257,7 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
-          <state></state>
+          <state>$PROJ_DIR$\..\sources</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -607,7 +607,7 @@
         </option>
         <option>
           <name>IlinkIcfFile</name>
-          <state>$TOOLKIT_DIR$\config\lnkstm8.icf</state>
+          <state>$TOOLKIT_DIR$\config\lnkstm8l051f3.icf</state>
         </option>
         <option>
           <name>IlinkIcfFileSlave</name>
@@ -1588,6 +1588,9 @@
       <data/>
     </settings>
   </configuration>
+  <file>
+    <name>$PROJ_DIR$\..\sources\hardware.c</name>
+  </file>
   <file>
     <name>$PROJ_DIR$\main.c</name>
   </file>
