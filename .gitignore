@@ -1,0 +1,9 @@
+#iar for stm8 git ignore files
+
+settings/
+Debug/
+Release/
+*.o
+*.map
+*.lst
+
